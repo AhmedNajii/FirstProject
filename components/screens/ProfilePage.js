@@ -5,6 +5,7 @@ import { firebaseAuth, firestore } from '../../config/firebase';  // Adjust impo
 import { doc, getDoc } from 'firebase/firestore';
 
 const ProfilePage = ({ navigation }) => {
+  
   const [userName, setUserName] = useState('');
   const [userEmail, setUserEmail] = useState('');
 
@@ -35,7 +36,6 @@ const ProfilePage = ({ navigation }) => {
       navigation.navigate('SignIn');  // Navigate back to the SignIn screen
     } catch (error) {
       console.error('Error signing out:', error.message);
-      // Optionally handle sign out error
     }
   };
 

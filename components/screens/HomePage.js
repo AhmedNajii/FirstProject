@@ -50,6 +50,7 @@ const HomePage = () => {
           <Text style={styles.details}><Text style={styles.label}>Last Name :  </Text>{character.lastName}</Text>
           <Text style={styles.details}><Text style={styles.label}>Full Name :  </Text>{character.fullName}</Text>
           <Text style={styles.details}><Text style={styles.label}>Family :  </Text>{character.family}</Text>
+          <Text style={styles.details}><Text style={styles.label}>Title :  </Text>{character.title}</Text>
           <Text style={styles.details}><Text style={styles.label}>Image :  </Text>{character.image}</Text>
           <Text style={styles.details}><Text style={styles.label}>Image URL :  </Text>{character.imageUrl}</Text>
         </View>
